@@ -11,7 +11,7 @@ class BaseModel:
     '''
     def __init__(self, *args, **kwargs):
         '''Constructor of Base Model'''
-        if len (kwargs) != 0:
+        if len(kwargs) != 0:
             for key, value in kwargs.items():
                 if key == "__class__":
                     continue
