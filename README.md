@@ -11,16 +11,16 @@ The console.py is a command interpreter in which we can create different objects
 
 Command                        |Description and Use 
 |--------|--|
-`empty line () :`| an empty line + ENTER does not execute anything.
-`precmd () :` |hook method executed just before the command line is interpreted. Modify to allow comands in the way arg.command() .
-`do_all () :` |shows all instances that are located in the .json file based on the class name or not.
-`do_show () :` |prints the string representation of an instance based on the class name and id.
-`do_create () :`| creates a new instance of a specific class and saves it (in the JSON file).
-`do_destroy () :`| deletes an instance based on the class name and id.
-`do_update () :`| update an instance based on the class name and ID by adding or updating an attribute
-`do_count () :`| retrieve the number of instances of a class
-`do_quit () :`| exits the program.
-`do_EOF () :` |exit the program by typing Ctrl + d.
+`empty line ():`| an empty line + ENTER does not execute anything.
+`precmd ():` |hook method executed just before the command line is interpreted. Modify to allow comands in the way arg.command() .
+`do_all ():` |shows all instances that are located in the .json file based on the class name or not.
+`do_show ():` |prints the string representation of an instance based on the class name and id.
+`do_create ():`| creates a new instance of a specific class and saves it (in the JSON file).
+`do_destroy ():`| deletes an instance based on the class name and id.
+`do_update ():`| update an instance based on the class name and ID by adding or updating an attribute
+`do_count ():`| retrieve the number of instances of a class
+`do_quit ():`| exits the program.
+`do_EOF ():` |exit the program by typing Ctrl + d.
 
 
 
